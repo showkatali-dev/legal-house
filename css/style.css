@@ -3,6 +3,8 @@
 /* Utility classes */
 body {
     font-family: 'Poppins', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 h1,
@@ -65,9 +67,60 @@ p {
     width: 90%;
 }
 
+.banner-content form input {
+    border-radius: 8px;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: 2px solid #ffffff;
+    transition: 0.4s ease-in-out;
+}
+
 @media screen and (max-width: 991px) {
     .banner-content h1 {
         font-size: 64px;
     }
 }
 
+@media screen and (max-width: 767px) {
+    .banner-content h1 {
+        font-size: 48px;
+    }
+}
+
+
+/* Practice area css */
+.practice-area .card:hover {
+    background-image: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+    cursor: pointer;
+}
+
+/* Client Section css */
+.item-1 {
+    background: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/slider-1.jpg') no-repeat;
+}
+
+.item-2 {
+    background: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/slider-2.jpg') no-repeat;
+}
+
+.item-3 {
+    background: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/slider-3.jpg') no-repeat;
+}
+
+.carousel-item {
+    background-size: auto, cover;
+    background-position: center;
+}
+
+.carousel-item p {
+    color: #E7E7E7;
+}
+
+.carousel-item img {
+    width: 70px;
+    height: 70px;
+}
+
+.carousel-indicators {
+    bottom: 8%;
+}

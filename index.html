@@ -18,56 +18,212 @@
 
 <body>
     <!-- Header Section -->
-    <header>
-        <div class="container">
-            <!-- Navbar -->
-            <nav class="navbar navbar-expand-lg bg-white">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./images/logo2.png" alt="logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services <i class="fa-solid fa-chevron-right"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Cases <i class="fa-solid fa-chevron-right"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog <i class="fa-solid fa-chevron-right"></i></a>
-                            </li>
+    <header class="continer-fluid container-lg">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./images/logo2.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services <i class="fa-solid fa-chevron-right"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cases <i class="fa-solid fa-chevron-right"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog <i class="fa-solid fa-chevron-right"></i></a>
+                        </li>
 
-                        </ul>
-                        <button class="btn my-btn" type="submit">Contact us</button>
+                    </ul>
+                    <button class="btn my-btn" type="submit">Contact us</button>
 
-                    </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
 
-            <!-- Banner -->
-            <section class="banner rounded-2 mt-5">
-                <div class="banner-content d-flex flex-column justify-content-center align-items-center gap-3 mx-auto">
-                    <h1 class="text-white text-center">We Provide Effective Legal Solutions</h1>
-                    <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the
-                        majority have suffered
-                        alteration in some form, by injected humour.</p>
-                    <form class="d-flex mx-auto" role="search">
-                        <input class="ps-3 me-2 rounded-3 w-100" type="search" placeholder="Search your services"
-                            aria-label="Search">
-                        <button class="btn my-btn flex-shrink-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </section>
-        </div>
+        <!-- Banner -->
+        <section class="banner rounded-2 my-5">
+            <div class="banner-content d-flex flex-column justify-content-center align-items-center gap-3 mx-auto">
+                <h1 class="text-white text-center">We Provide Effective Legal Solutions</h1>
+                <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered
+                    alteration in some form, by injected humour.</p>
+                <form class="d-flex mx-auto flex-wrap flex-sm-nowrap justify-content-center gap-2" role="search">
+                    <input class="rounded-3 w-100" type="search" placeholder="Search your services" aria-label="Search">
+                    <button class="btn my-btn flex-shrink-0" type="submit">Search</button>
+                </form>
+            </div>
+        </section>
     </header>
     <!-- Header Section -->
+
+
+    <!-- Main Section -->
+    <main class="container-fluid container-lg">
+        <!-- Practice area -->
+        <section class="practice-area my-5 py-5">
+            <h1 class="text-center mb-4">The Legal Practice Area</h1>
+            <p class="text-center mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                have
+                suffered alteration in some form, by injected humour.</p>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
+                <div class="col">
+                    <div class="card rounded-0 text-center h-100 border-1 px-2 py-4">
+                        <img src="./images/business.png" class="card-img-top w-25 mx-auto" alt="business">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2">Card title</h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#" class="btn my-btn px-3 py-2 rounded-circle"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-0 text-center h-100 border-1 px-2 py-4">
+                        <img src="./images/criminal.png" class="card-img-top w-25 mx-auto" alt="criminal">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2">Criminal Law</h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#" class="btn my-btn px-3 py-2 rounded-circle"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-0 text-center h-100 border-1 px-2 py-4">
+                        <img src="./images/child.png" class="card-img-top w-25 mx-auto" alt="child">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2">Child Support</h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#" class="btn my-btn px-3 py-2 rounded-circle"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-0 text-center h-100 border-1 px-2 py-4">
+                        <img src="./images/education.png" class="card-img-top w-25 mx-auto" alt="education">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2">Education Law</h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#" class="btn my-btn px-3 py-2 rounded-circle"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-0 text-center h-100 border-1 px-2 py-4">
+                        <img src="./images/divorce.png" class="card-img-top w-25 mx-auto" alt="divorce">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2">Divorce Law</h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#" class="btn my-btn px-3 py-2 rounded-circle"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card rounded-0 text-center h-100 border-1 px-2 py-4">
+                        <img src="./images/tax.png" class="card-img-top w-25 mx-auto" alt="tax">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2">Tax Law</h5>
+                            <p class="card-text">There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form, by injected humour.</p>
+                            <a href="#" class="btn my-btn px-3 py-2 rounded-circle"><i
+                                    class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="client my-5 py-5">
+            <h1 class="text-center mb-4">What Our Client Say</h1>
+            <p class="text-center mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                have
+                suffered alteration in some form, by injected humour.</p>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item item-1 text-center active py-5 px-3 rounded-3">
+                        <div class="container p-5">
+                            <img src="./images/profile-1.png" alt="" class="mb-4">
+                            <h3 class="text-white fs-3 mb-1">Awlad Hossain</h3>
+                            <p class="mb-4">UIX Designer</p>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of
+                                classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a
+                                Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                Latin words, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-2 text-center py-5 px-3 rounded-3">
+                        <div class="container p-5">
+                            <img src="./images/profile-2.png" alt="" class="mb-4">
+                            <h3 class="text-white fs-3 mb-1">Mir Hossain</h3>
+                            <p class="mb-4">Frontend Developer</p>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of
+                                classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a
+                                Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                Latin words, consectetur.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item item-3 text-center py-5 px-3 rounded-3">
+                        <div class="container p-5">
+                            <img src="./images/profile-3.png" alt="" class="mb-4">
+                            <h3 class="text-white fs-3 mb-1">Fahim Ahamed</h3>
+                            <p class="mb-4">Backend Developer</p>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of
+                                classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a
+                                Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure
+                                Latin words, consectetur.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <!-- Main Section -->
 
 
 
