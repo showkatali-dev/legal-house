@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;500;600&display=swap');
 
-
+/* Utility classes */
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -24,8 +24,50 @@ p {
 .my-btn {
     background-color: #B68C5A;
     border-radius: 8px;
-    padding: 17px 40px;
+    padding: 14px 30px;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
+    border: 2px solid #B68C5A;
+    transition: 0.4s ease-in-out;
 }
+
+.my-btn:hover {
+    background-color: #fff;
+    color: #B68C5A;
+    border: 2px solid #B68C5A;
+}
+
+
+/* Banner css */
+.banner {
+    background: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/banner.png') no-repeat;
+    background-size: auto, cover;
+    background-position: center;
+}
+
+.banner-content {
+    width: 670px;
+    max-width: 90%;
+    padding-top: 100px;
+    padding-bottom: 104px;
+}
+
+.banner-content h1 {
+    font-size: 70px;
+}
+
+.banner-content p {
+    color: #E7E7E7;
+}
+
+.banner-content form {
+    width: 90%;
+}
+
+@media screen and (max-width: 991px) {
+    .banner-content h1 {
+        font-size: 64px;
+    }
+}
+
