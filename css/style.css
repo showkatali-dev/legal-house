@@ -18,6 +18,10 @@ h6 {
     color: #414040 !important;
 }
 
+.fs-2{
+    font-weight: 700 !important;
+}
+
 p {
     color: #707070;
     line-height: 26px;
@@ -94,6 +98,16 @@ p {
     cursor: pointer;
 }
 
+.practice-area .card .img {
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .practice-area .card .img {
+        height: 100px;
+    }
+}
+
 /* Client Section css */
 .item-1 {
     background: linear-gradient(360deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url('../images/slider-1.jpg') no-repeat;
@@ -114,6 +128,8 @@ p {
 
 .carousel-item p {
     color: #E7E7E7;
+    max-width: 900px;
+    margin: auto;
 }
 
 .carousel-item img {
@@ -123,4 +139,74 @@ p {
 
 .carousel-indicators {
     bottom: 8%;
+}
+
+/* FAQs section CSS */
+.accordion-item {
+    margin-bottom: 1.8rem;
+    border: none;
+    background-color: #F3F3F3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: #F3F3F3;
+    font-size: 24px;
+    font-weight: 800;
+    color: #414040;
+    font-family: 'EB Garamond', serif;
+    box-shadow: inherit;
+}
+
+.accordion-button::after {
+    background-image: url('../images/plus-solid.svg');
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../images/minus-solid.svg');
+}
+
+/* Footer css */
+footer {
+    background-color: #111111;
+}
+
+footer p {
+    color: #CFCFCF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #CFCFCF;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    footer .container {
+        max-width: 80%;
+        margin: auto;
+    }
+}
+
+
+/* Modal css */
+.modal-section .card {
+    background-color: #F3F3F3;
+    cursor: pointer;
+}
+
+.modal-section form input,
+textarea {
+    background-color: #F3F3F3;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+section>p {
+    max-width: 714px;
+    margin: auto;
 }
